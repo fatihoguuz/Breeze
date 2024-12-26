@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DFC466F2D1D3979006E532C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC466E2D1D3979006E532C /* AppDelegate.swift */; };
+		3DFC46712D1D3979006E532C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC46702D1D3979006E532C /* SceneDelegate.swift */; };
+		3DFC46732D1D3979006E532C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC46722D1D3979006E532C /* ViewController.swift */; };
+		3DFC46762D1D3979006E532C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC46742D1D3979006E532C /* Main.storyboard */; };
+		3DFC46782D1D397B006E532C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC46772D1D397B006E532C /* Assets.xcassets */; };
+		3DFC467B2D1D397B006E532C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC46792D1D397B006E532C /* LaunchScreen.storyboard */; };
+		3DFC46862D1D397B006E532C /* BreezeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC46852D1D397B006E532C /* BreezeTests.swift */; };
+		3DFC46902D1D397B006E532C /* BreezeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC468F2D1D397B006E532C /* BreezeUITests.swift */; };
+		3DFC46922D1D397B006E532C /* BreezeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC46912D1D397B006E532C /* BreezeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DFC46822D1D397B006E532C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DFC46632D1D3979006E532C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DFC466A2D1D3979006E532C;
+			remoteInfo = Breeze;
+		};
+		3DFC468C2D1D397B006E532C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DFC46632D1D3979006E532C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DFC466A2D1D3979006E532C;
+			remoteInfo = Breeze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DFC466B2D1D3979006E532C /* Breeze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breeze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFC466E2D1D3979006E532C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DFC46702D1D3979006E532C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3DFC46722D1D3979006E532C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DFC46752D1D3979006E532C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DFC46772D1D397B006E532C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DFC467A2D1D397B006E532C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DFC467C2D1D397B006E532C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFC46812D1D397B006E532C /* BreezeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreezeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFC46852D1D397B006E532C /* BreezeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreezeTests.swift; sourceTree = "<group>"; };
+		3DFC468B2D1D397B006E532C /* BreezeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreezeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFC468F2D1D397B006E532C /* BreezeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreezeUITests.swift; sourceTree = "<group>"; };
+		3DFC46912D1D397B006E532C /* BreezeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreezeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DFC46682D1D3979006E532C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFC467E2D1D397B006E532C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFC46882D1D397B006E532C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DFC46622D1D3979006E532C = {
+			isa = PBXGroup;
+			children = (
+				3DFC466D2D1D3979006E532C /* Breeze */,
+				3DFC46842D1D397B006E532C /* BreezeTests */,
+				3DFC468E2D1D397B006E532C /* BreezeUITests */,
+				3DFC466C2D1D3979006E532C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DFC466C2D1D3979006E532C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DFC466B2D1D3979006E532C /* Breeze.app */,
+				3DFC46812D1D397B006E532C /* BreezeTests.xctest */,
+				3DFC468B2D1D397B006E532C /* BreezeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DFC466D2D1D3979006E532C /* Breeze */ = {
+			isa = PBXGroup;
+			children = (
+				3DFC466E2D1D3979006E532C /* AppDelegate.swift */,
+				3DFC46702D1D3979006E532C /* SceneDelegate.swift */,
+				3DFC46722D1D3979006E532C /* ViewController.swift */,
+				3DFC46742D1D3979006E532C /* Main.storyboard */,
+				3DFC46772D1D397B006E532C /* Assets.xcassets */,
+				3DFC46792D1D397B006E532C /* LaunchScreen.storyboard */,
+				3DFC467C2D1D397B006E532C /* Info.plist */,
+			);
+			path = Breeze;
+			sourceTree = "<group>";
+		};
+		3DFC46842D1D397B006E532C /* BreezeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DFC46852D1D397B006E532C /* BreezeTests.swift */,
+			);
+			path = BreezeTests;
+			sourceTree = "<group>";
+		};
+		3DFC468E2D1D397B006E532C /* BreezeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DFC468F2D1D397B006E532C /* BreezeUITests.swift */,
+				3DFC46912D1D397B006E532C /* BreezeUITestsLaunchTests.swift */,
+			);
+			path = BreezeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DFC466A2D1D3979006E532C /* Breeze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFC46952D1D397B006E532C /* Build configuration list for PBXNativeTarget "Breeze" */;
+			buildPhases = (
+				3DFC46672D1D3979006E532C /* Sources */,
+				3DFC46682D1D3979006E532C /* Frameworks */,
+				3DFC46692D1D3979006E532C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Breeze;
+			productName = Breeze;
+			productReference = 3DFC466B2D1D3979006E532C /* Breeze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DFC46802D1D397B006E532C /* BreezeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFC46982D1D397B006E532C /* Build configuration list for PBXNativeTarget "BreezeTests" */;
+			buildPhases = (
+				3DFC467D2D1D397B006E532C /* Sources */,
+				3DFC467E2D1D397B006E532C /* Frameworks */,
+				3DFC467F2D1D397B006E532C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DFC46832D1D397B006E532C /* PBXTargetDependency */,
+			);
+			name = BreezeTests;
+			productName = BreezeTests;
+			productReference = 3DFC46812D1D397B006E532C /* BreezeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DFC468A2D1D397B006E532C /* BreezeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFC469B2D1D397B006E532C /* Build configuration list for PBXNativeTarget "BreezeUITests" */;
+			buildPhases = (
+				3DFC46872D1D397B006E532C /* Sources */,
+				3DFC46882D1D397B006E532C /* Frameworks */,
+				3DFC46892D1D397B006E532C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DFC468D2D1D397B006E532C /* PBXTargetDependency */,
+			);
+			name = BreezeUITests;
+			productName = BreezeUITests;
+			productReference = 3DFC468B2D1D397B006E532C /* BreezeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DFC46632D1D3979006E532C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					3DFC466A2D1D3979006E532C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					3DFC46802D1D397B006E532C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3DFC466A2D1D3979006E532C;
+					};
+					3DFC468A2D1D397B006E532C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3DFC466A2D1D3979006E532C;
+					};
+				};
+			};
+			buildConfigurationList = 3DFC46662D1D3979006E532C /* Build configuration list for PBXProject "Breeze" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DFC46622D1D3979006E532C;
+			productRefGroup = 3DFC466C2D1D3979006E532C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DFC466A2D1D3979006E532C /* Breeze */,
+				3DFC46802D1D397B006E532C /* BreezeTests */,
+				3DFC468A2D1D397B006E532C /* BreezeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DFC46692D1D3979006E532C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFC467B2D1D397B006E532C /* LaunchScreen.storyboard in Resources */,
+				3DFC46782D1D397B006E532C /* Assets.xcassets in Resources */,
+				3DFC46762D1D3979006E532C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFC467F2D1D397B006E532C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFC46892D1D397B006E532C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DFC46672D1D3979006E532C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFC46732D1D3979006E532C /* ViewController.swift in Sources */,
+				3DFC466F2D1D3979006E532C /* AppDelegate.swift in Sources */,
+				3DFC46712D1D3979006E532C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFC467D2D1D397B006E532C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFC46862D1D397B006E532C /* BreezeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFC46872D1D397B006E532C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFC46902D1D397B006E532C /* BreezeUITests.swift in Sources */,
+				3DFC46922D1D397B006E532C /* BreezeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DFC46832D1D397B006E532C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DFC466A2D1D3979006E532C /* Breeze */;
+			targetProxy = 3DFC46822D1D397B006E532C /* PBXContainerItemProxy */;
+		};
+		3DFC468D2D1D397B006E532C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DFC466A2D1D3979006E532C /* Breeze */;
+			targetProxy = 3DFC468C2D1D397B006E532C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DFC46742D1D3979006E532C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DFC46752D1D3979006E532C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DFC46792D1D397B006E532C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DFC467A2D1D397B006E532C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DFC46932D1D397B006E532C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DFC46942D1D397B006E532C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DFC46962D1D397B006E532C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Breeze/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fatih.oguz.Breeze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DFC46972D1D397B006E532C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Breeze/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fatih.oguz.Breeze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DFC46992D1D397B006E532C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fatih.oguz.BreezeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breeze.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Breeze";
+			};
+			name = Debug;
+		};
+		3DFC469A2D1D397B006E532C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fatih.oguz.BreezeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breeze.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Breeze";
+			};
+			name = Release;
+		};
+		3DFC469C2D1D397B006E532C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fatih.oguz.BreezeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Breeze;
+			};
+			name = Debug;
+		};
+		3DFC469D2D1D397B006E532C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fatih.oguz.BreezeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Breeze;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DFC46662D1D3979006E532C /* Build configuration list for PBXProject "Breeze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFC46932D1D397B006E532C /* Debug */,
+				3DFC46942D1D397B006E532C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DFC46952D1D397B006E532C /* Build configuration list for PBXNativeTarget "Breeze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFC46962D1D397B006E532C /* Debug */,
+				3DFC46972D1D397B006E532C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DFC46982D1D397B006E532C /* Build configuration list for PBXNativeTarget "BreezeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFC46992D1D397B006E532C /* Debug */,
+				3DFC469A2D1D397B006E532C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DFC469B2D1D397B006E532C /* Build configuration list for PBXNativeTarget "BreezeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFC469C2D1D397B006E532C /* Debug */,
+				3DFC469D2D1D397B006E532C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DFC46632D1D3979006E532C /* Project object */;
+}
